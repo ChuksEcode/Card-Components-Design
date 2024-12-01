@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+    letter-spacing: -0.031rem;
+}
+
+.card-parent-container{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container{
+    width: 43%;
+    height: auto;
+    background-color: #f8f8f8;
+    padding: 2rem;  
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+    border-radius: 0.5rem;
+}
+
+.top-section-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.25rem;
+}
+
+.premium-amount-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.premium-container{
+    width: fit-content;
+    height: auto;
+}
+
+.premium-container h1{
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.amount-container{
+    width: fit-content;
+    height: auto;
+}
+
+.amount-container p{
+    font-size: 0.95rem;
+    color: #8e8a8a;
+}
+
+.lorem-container{
+    width: 100%;
+    height: auto;
+}
+
+.lorem-container p{
+    font-size: 0.9rem;
+    color: #6b6b6b;
+}
+
+.buttons-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.subscribe-container{
+    width: 80%;
+    height: auto;
+}
+
+.later-container{
+    width: 20%;
+    height: auto;
+}
+
+.subscribe-container button{
+    width: 100%;
+    height: auto;
+    background-color: #1f3cfb;
+    padding: 0.85rem;
+    color: white;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.later-container button{
+    width: 100%;
+    height: auto;
+    padding: 0.85rem;
+    background-color: #d3d8fc;
+    color: #260998;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
